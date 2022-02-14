@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 contract Adoption {
 
-  address[16] public adopters;  // 保存领养者的地址
+  address[16] public adopters;  // 保存领养者的地址1
 
     // 领养宠物
   function adopt(uint petId) public returns (uint) {
